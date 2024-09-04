@@ -1,0 +1,108 @@
+<section class="mt-3">
+  <!-- main nav -->
+  <div class="container-fluid">
+    <nav class="py-3 rounded container-fluid h-nav bg-white main-nav">
+      <div class="d-flex justify-content-between align-items-center">
+        <div>
+          <ul class="bread-list">
+            <li>اي تكنولوجي</li>
+            <li>لوحة تحكم المهام</li>
+            <li class="active">فريق البرمجة</li>
+          </ul>
+        </div>
+        <div class="d-flex">
+          <ul class="social-list">
+            <li>
+              <button aria-label="search button">
+                <img src="./assets/icons/search-normal-ico.svg" alt="" />
+              </button>
+            </li>
+            <li>
+              <button aria-label="notification button" class="note-bg">
+                <img src="./assets/icons/notification-bing-ico.svg" alt="" />
+              </button>
+            </li>
+            <li>
+              <button aria-label="sms button">
+                <img src="./assets/icons/sms-tracking-ico.svg" alt="" />
+              </button>
+            </li>
+          </ul>
+          <div class="dropdown nav-drop">
+            <button
+              class="btn dropdown-toggle"
+              type="button"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <img src="./assets/images/mini-user.png" alt="" />
+              <div>
+                <span class="drop-title">هشام ابو العز</span>
+                <span class="drop-sub-title">خدمة العملاء</span>
+              </div>
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="mt-3">
+      <app-content></app-content>
+    </div>
+  </div>
+  <!-- side nav -->
+  <aside>
+    <span class="d-block border-bottom w-100 text-center pb-3">
+      <a href="#">
+        <img src="./assets/icons/logo-ico.svg" alt="main logo" />
+      </a>
+    </span>
+    <ul
+      class="d-flex flex-column justify-content-center align-content-center gap-3"
+    >
+      <li>
+        <a href="#">
+          <img src="./assets/icons/home-ico.svg" alt="home icon" />
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="./assets/icons/pepole-ico.svg" alt="people icon" />
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="./assets/icons/box-ico.svg" alt="box icon" />
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="./assets/icons/calendar-ico.svg" alt=" calendar icon" />
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="./assets/icons/message-ico.svg" alt="message icon" />
+        </a>
+      </li>
+    </ul>
+    <ul class="d-flex flex-column align-items-center border-top w-100">
+      <li>
+        <a href="#">
+          <img src="./assets/icons/setting-ico.svg" alt="setting icon" />
+        </a>
+      </li>
+      <li>
+        <a href="#">
+          <img src="./assets/icons/info-circle-ico.svg" alt="info icon" />
+        </a>
+      </li>
+    </ul>
+  </aside>
+</section>
